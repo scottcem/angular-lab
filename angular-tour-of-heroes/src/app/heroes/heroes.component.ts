@@ -11,9 +11,9 @@ import { MessageService } from '../message.service';
 })
 export class HeroesComponent implements OnInit {
 
-  selectedHero: Hero;
+  selectedHero!: Hero;
 
-  heroes: Hero[];
+  heroes!: Hero[];
 
   constructor(private heroService: HeroService, private messageService: MessageService) { }
 
